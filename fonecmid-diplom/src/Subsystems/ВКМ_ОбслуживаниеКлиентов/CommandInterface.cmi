@@ -25,6 +25,12 @@
         <common>true</common>
       </visible>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.Номенклатура.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
@@ -37,6 +43,10 @@
       <commands>Document.ВКМ_ОбслуживаниеКлиентов.StandardCommand.OpenList</commands>
       <commands>Document.РеализацияТоваровУслуг.StandardCommand.OpenList</commands>
     </placementFragments>
+    <placementFragments>
+      <group>CommandGroup.ВКМ_Справочники</group>
+      <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
+    </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
@@ -48,6 +58,10 @@
       <group>CommandGroup.ВКМ_Документы</group>
       <commands>Document.ВКМ_ОбслуживаниеКлиентов.StandardCommand.OpenList</commands>
       <commands>Document.РеализацияТоваровУслуг.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>CommandGroup.ВКМ_Справочники</group>
+      <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

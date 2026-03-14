@@ -19,4 +19,5 @@
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>Role.ВКМ_МассовоеСозданиеДокументовРеализации</content>
   <content>Document.РеализацияТоваровУслуг</content>
+  <content>Catalog.Номенклатура</content>
 </mdclass:Subsystem>
